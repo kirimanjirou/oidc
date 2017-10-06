@@ -17,8 +17,8 @@ var port = normalizePort(process.env.PORT || '2017');
 app.set('port', port);
 
 var options = {
-        key: fs.readFileSync('/etc/letsencrypt/live/test.kirimanjirou.com/privkey.pem'),
-        cert: fs.readFileSync('/etc/letsencrypt/live/test.kirimanjirou.com/cert.pem')
+        key: fs.readFileSync(ENETR YOUR privkey.pem PATH),
+        cert: fs.readFileSync(ENTER YOUR cert.pem PATH)
         }
 
 /**
