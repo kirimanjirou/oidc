@@ -38,8 +38,8 @@ router.get('/callback',function(req, res, next) {
                 data: {
                         grant_type : "authorization_code",
                         code : code,
-                        client_id : ENTER_YOUR_CLIENTID_FOR_LINE
-                        client_secrea : ENTER,
+                        client_id : ENTER_YOUR_CLIENTID_FOR_LINE,
+                        client_secret : ENTER,
                         redirect_uri : ENTER
                 }
 	};
