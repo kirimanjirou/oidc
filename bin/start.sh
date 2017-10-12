@@ -1,4 +1,4 @@
-#!bin/sh
+#!/bin/sh
 npm start > log/server.log  2> log/server_err.log < /dev/null &
 sleep 3s
 
